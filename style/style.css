@@ -1,0 +1,131 @@
+.img-fluid {
+  width: 60%;
+}
+#logo {
+  position: absolute;
+  left: 47%;
+  top: -20%;
+  max-width: auto;
+}
+#black {
+  color: black;
+  font-size: 30px;
+}
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.back {
+  background-image: url(../img/amour.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.slog {
+  text-align: center;
+  position: relative;
+  top: 120px;
+  font-size: 50px;
+  color: #f32a2a;
+  z-index: 2;
+  text-shadow: black 1px 1px;
+}
+header {
+  position: sticky;
+  top: 0%;
+  background-color: white;
+  z-index: 4;
+}
+.connect {
+  position: absolute;
+  left: 40%;
+  top: 250px;
+  font-size: 25px;
+}
+.email {
+  padding-bottom: 5%;
+  position: relative;
+}
+#foot {
+  position: relative;
+  top: 550px;
+}
+#butt {
+  position: absolute;
+  left: 32%;
+  top: 230px;
+}
+.connec {
+  position: absolute;
+  left: 20%;
+  top: 150px;
+}
+#md {
+  font-size: 30px;
+}
+#middle {
+  width: 20%;
+  position: relative;
+  left: 40%;
+  top: 20px;
+}
+#but-middle {
+  position: relative;
+  left: 200px;
+}
+.addAMember {
+  position: relative;
+  left: 40%;
+  width: 400px;
+}
+.membersadded {
+  width: 50px;
+}
+#modify {
+  position: absolute;
+  left: 40%;
+  bottom: 320px;
+}
+.film {
+  font-size: 20px;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  right: 25px;
+}
+.actif {
+  position: relative;
+  left: -240px;
+}
